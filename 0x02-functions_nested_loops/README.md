@@ -1,54 +1,52 @@
-# PROJECT 0x02. C - Functions, nested loops
-![image](https://user-images.githubusercontent.com/105258746/189934273-f596e713-d5a1-4ab2-b623-75094e5c9b0e.png)
-#### Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
-`(A nested loop is a loop inside the body of another loop)`
+PROJECT 0x02: C - Functions, Nested Loops
+image
 
-- Note: The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-~ You have to start by creating your `main.h` first. (The resources is below for your reference)
+Introduction
+In Project 0x02, we delve into the world of functions and nested loops in the C programming language. Nested loops, aptly named "loop inside loop," involve placing one loop statement within another. The header file, main.h, plays a crucial role as it contains prototypes for all functions, including the essential _putchar function.
 
-## ** File `main.h` is the header file containing all the function prototypes used in this project... >>>> THIS FILE IS VERY IMPORTANT
+File Overview
+main.h: This header file is the linchpin, housing prototypes for all functions used in the project.
 
-#### ==> File: `0-putchar.c` is a program that prints `-putchar`, followed by a new line.
+0-putchar.c: A program that prints -putchar, followed by a new line.
 
-#### ==> File: `1-alphabet.c` is a function that prints the alphabet, in lowercase, followed by a new line.
+1-alphabet.c: A function that prints the alphabet in lowercase, followed by a new line.
 
-#### ==> File: `2-print_alphabet_x10.c` is a function that prints 10 times the alphabet, in lowercase, followed by a new line.
+2-print_alphabet_x10.c: A function that prints the alphabet in lowercase ten times, each followed by a new line.
 
-#### ==> File: `3-islower.c` is a function that checks for lowercase character.
+3-islower.c: A function that checks for a lowercase character.
 
-#### ==> File: `4-isalpha.c` is a function that checks for alphabetic character.
+4-isalpha.c: A function that checks for an alphabetic character.
 
-#### ==> File `5-sign.c` is a function that prints the sign of a number.
+5-sign.c: A function that prints the sign of a number.
 
-#### ==> File `6-abs.c` is a function that computes the absolute value of an integer.
+6-abs.c: A function that computes the absolute value of an integer.
 
-#### ==> File `7-print_last_digit.c` is a function that prints the last digit of a number.
+7-print_last_digit.c: A function that prints the last digit of a number.
 
-#### ==> File `8-24_hours.c` is a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+8-24_hours.c: A function that prints every minute of the day of Jack Bauer, from 00:00 to 23:59.
 
-#### ==> File `10-add.c` is a function that adds two integers and returns the result.
+10-add.c: A function that adds two integers and returns the result.
 
-#### ==> File `11-print_to_98.c` is a function that prints all natural numbers from n to 98, followed by a new line.
-```
-File: `_putchar.c` contains the _putchar() function definition.
-```
+11-print_to_98.c: A function that prints all natural numbers from n to 98, followed by a new line.
 
-## Advanced Task
+_putchar.c: Contains the _putchar() function definition.
 
-#### ===> File `100-times_table.c` is a function that prints the n times table, starting with 0.
+Advanced Task
+100-times_table.c: A function that prints the n times table, starting from 0.
 
-#### ===> File `101-natural.c` is a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+101-natural.c: A program that computes and prints the sum of all multiples of 3 or 5 below 1024 (excluding 1024), followed by a new line.
 
-#### ===> File `102-fibonacci.c` is a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+102-fibonacci.c: A program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
-#### ===> File `103-fibonacci.c` is a program that finds and prints the sum of the even-valued terms of the Fibonacci suite under 4000000, followed by a new line.
+103-fibonacci.c: A program that finds and prints the sum of the even-valued terms of the Fibonacci sequence under 4000000, followed by a new line.
 
-#### ===> File `104-fibonacci.c` is a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+104-fibonacci.c: A program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
-# Resources
-#### Read or watch:
-- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
-- [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
-- [Learning to Program in C (Part 06) `stop at 14:00`](https://www.youtube.com/watch?v=qMlnFwYdqIw)
-- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
-- [C - Header Files `stop before the “Once-Only Headers” paragraph`](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
+Resources
+To aid in this endeavor, resources such as tutorials on nested while loops, functions, and header files are provided for comprehensive understanding:
+
+Nested while loops
+C - Functions
+Learning to Program in C (Part 06) stop at 14:00
+What is the purpose of a function prototype?
+C - Header Files stop before the “Once-Only Headers” paragraph
