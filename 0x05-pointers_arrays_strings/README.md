@@ -1,32 +1,39 @@
-# 0x05. C - Pointers, arrays and strings
-![image](https://user-images.githubusercontent.com/105258746/190977571-d5135d31-02a5-4ff3-88de-d9062d6cfe13.png)
+# 0x05. C - Pointers, Arrays, and Strings
 
-### A pointer is a variable that stores the memory address of another variable as its value. A pointer variable points to a data type (like int) of the same type, and is `created with the * operator`.
+![Project Logo](https://user-images.githubusercontent.com/105258746/190977571-d5135d31-02a5-4ff3-88de-d9062d6cfe13.png)
 
-- File: `main.h` is the header file containing all the function prototypes used in this project.
+## Introduction
 
-- File: `0-reset_to_98.c` is a function that takes a pointer to an int as parameter and updates the value it points to to 98.
+This project explores the concept of pointers, arrays, and strings in the C programming language. A pointer is a variable that stores the memory address of another variable as its value. In C, pointers are essential for various operations, including dynamic memory allocation and manipulation of data structures.
 
-- File: `1-swap.c` is a function that swaps the values of two integers.
+## Files
 
-- File: `2-strlen.c` is a function that returns the length of a string.
+Here's an overview of the files in this project:
 
-- File: `3-puts.c` is a function that prints a string, followed by a new line, to stdout.
+- `main.h`: This is the header file containing all the function prototypes used in this project.
 
-- File: `4-print_rev.c` is a function that prints a string, in reverse, followed by a new line.
+- `0-reset_to_98.c`: This file contains a function that takes a pointer to an integer as a parameter and updates the value it points to, setting it to 98.
 
-- File: `5-rev_string.c` is a function that reverses a string.
+- `1-swap.c`: This file contains a function that swaps the values of two integers.
 
-- File: `6-puts2.c` is a function that prints one char out of 2 of a string, followed by a new line.
+- `2-strlen.c`: This file contains a function that calculates the length of a string.
 
-- File: `7-puts_half.c` is a function that prints half of a string, followed by a new line.
+- `3-puts.c`: This file contains a function that prints a string, followed by a new line, to the standard output.
 
-- File: `8-print_array.c` is a function that prints n elements of an array of integers, followed by a new line.
+- `4-print_rev.c`: This file contains a function that prints a string in reverse, followed by a new line.
 
-- File: `9-strcpy.c` is a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+- `5-rev_string.c`: This file contains a function that reverses a string.
 
-- File: `100-atoi.c` is a function that convert a string to an integer.
+- `6-puts2.c`: This file contains a function that prints every other character of a string, followed by a new line.
 
-- File: `101-keygen.c` is a program that generates random valid passwords for the program 101-crackme.
+- `7-puts_half.c`: This file contains a function that prints the second half of a string, followed by a new line.
 
-- File: `_putchar.c` contains the _putchar() function definition.
+- `8-print_array.c`: This file contains a function that prints a specified number of elements from an array of integers, followed by a new line.
+
+- `9-strcpy.c`: This file contains a function that copies a source string (including the null terminator) to a destination buffer.
+
+- `100-atoi.c`: This file contains a function that converts a string to an integer.
+
+- `101-keygen.c`: This is a program that generates random valid passwords for a program called `101-crackme`.
+
+- `_putchar.c`: This file contains the definition of the `_putchar()` function used for printing characters to the standard output.
