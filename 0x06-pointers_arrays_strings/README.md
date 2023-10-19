@@ -1,23 +1,14 @@
-# 0x06. C - More pointers, arrays and strings Project
+0x06. C - More Pointers, Arrays, and Strings Project
+This repository is dedicated to practicing more with pointers, arrays, and string manipulation in the C programming language. Below is a brief description of each file contained in this repository:
 
-File 0-strcat.c is a function that concatenates two strings.
-
-File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
-
-File 2-strncpy.c is a function that copies a string.
-
-File 3-strcmp.c is a function that compares two strings.
-
-File 4-rev_array.c a function that reverses the content of an array of integers.
-
-File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
-
-File 6-cap_string.c is a function that capitalizes all words of a string.
-
-File 7-leet.c is a function that encodes a string into 1337.
-
-File 100-rot13.c is a function that encodes a string using rot13.
-
-File _putchar.c is a function that replaces the standard library function putchar().
-
-File main.h is the header file containing all the function prototypes.
+0-strcat.c: A function that joins two strings together (concatenation).
+1-strncat.c: A function that concatenates two strings using a maximum of n bytes from the src string.
+2-strncpy.c: A function designed to copy one string into another.
+3-strcmp.c: A function for comparing the contents of two strings.
+4-rev_array.c: A function that reverses the contents of an array filled with integers.
+5-string_toupper.c: A function to convert every lowercase letter in a string to its uppercase counterpart.
+6-cap_string.c: A function that turns the first letter of every word in a string to uppercase.
+7-leet.c: A fun function that translates a string into "leet speak" or 1337.
+100-rot13.c: A function that transforms a string using the ROT13 encoding.
+_putchar.c: A custom function serving as a replacement for the standard library's putchar().
+main.h: The header file associated with this project, which contains all necessary prototypes for our functions.
