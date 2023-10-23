@@ -1,37 +1,66 @@
-# 0x07. C - Even more pointers, arrays and strings C Project
-### File: `0-memset.c` is a function that fills memory with a constant byte.
+# 0x07. C - Advanced Pointers, Arrays, and Strings
 
-### File: `1-memcpy.c` is a function that copies memory area.
+This project explores deeper concepts of pointers, arrays, and string manipulations in C programming.
 
-### File: `2-strchr.c` is a function that locates a character in a string.
+## Functions & Files:
 
-### File: `3-strspn.c` is a function that gets the length of a prefix substring.
+- `0-memset.c`: A function to fill memory with a specific byte.
+  
+- `1-memcpy.c`: A function for copying a memory area.
+  
+- `2-strchr.c`: A function designed to locate a specific character within a string.
+  
+- `3-strspn.c`: A function that measures the length of the initial segment of a string that consists entirely of bytes in another string.
+  
+- `4-strpbrk.c`: A function that seeks out the first occurrence in a string where any byte matches any byte in another string.
+  
+- `5-strstr.c`: A function that identifies and locates a substring within a string.
+  
+- `7-print_chessboard.c`: A function to display a chessboard.
+  
+- `8-print_diagsums.c`: A function that calculates and prints the sums of the two main diagonals in a square matrix of integers.
+  
+- `100-set_string.c`: A function to set the value within a pointer pointing to a char.
+  
+- `main.h`: A header file containing the prototypes of the functions in the project.
+  
+- `_putchar.c`: Contains the implementation for the `_putchar` function.
 
-### File: `4-strpbrk.c` is a function that searches a string for any of a set of bytes.
+## Advanced Task:
 
-### File: `5-strstr.c` is a function that locates a substring.
+- **101-crackme_password**: Contains the password required for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
+  - **Setup**:
+    - Install the required `openssl` library:
+      ```bash
+      sudo apt install libssl-dev
+      ```
+    - Modify the source list:
+      ```bash
+      sudo vim /etc/apt/sources.list
+      ```
+    - Add the line: 
+      ```bash
+      deb http://security.ubuntu.com/ubuntu xenial-security main
+      ```
+    - Update and install necessary packages:
+      ```bash
+      sudo apt update && sudo apt install libssl1.0.0
+      ```
 
-### File: `7-print_chessboard.c` is a function that prints the chessboard.
+**OR**
 
-### File: `8-print_diagsums.c` is a function that prints the sum of the two diagonals of a square matrix of integers.
+### Alternative Approach for Task 9:
+1. Open the file:
+   ```bash
+   vi -b 101-crackme_password
+   ```
+2. Once inside the `vi` editor, without entering insert mode:
+   - Execute `:set binary` 
+   - Then `:set noeol` 
+3. Now, enter insert mode (`i`) and input `abc123`.
+4. Exit and save the changes: 
+   ```bash
+   esc :wq
+   ```
 
-### File `100-set_string.c` is a function that sets the value of a pointer to a char.
-
-### File `main.h` is the header file with the functions prototypes.
-
-### File `_putchar.c` is the file that contains the _putchar function.
-
-## File: 101-crackme_password contains the password for the [crackme2](https://github.com/holbertonschool/0x06.c) executable.
-- You may need to install the `openssl` library to run the crakme2 program: `sudo apt install libssl-dev`
-- Edit the source list `sudo vim /etc/apt/sources.list` to add the following line: `deb http://security.ubuntu.com/ubuntu xenial-security main` Then `sudo apt update` and `sudo apt install libssl1.0.0`
-
-OR 
-
-## The Advanced task no. 9
-1. open the file using `vi -b 101-cranckme_password`
-2. when you see the vi window, don't use the insert mode, just type `:set binary` and hit enter
-3. type `:set noeol` and hit enter
-4. use the insert mode(i) and type abc123
-5. esc `:wq` hit enter
-
-==> Then git add . etc
+Finally, you can proceed with git operations like `git add .` and others as needed.
