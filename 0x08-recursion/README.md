@@ -1,21 +1,23 @@
-File 0-puts_recursion.c is a function that prints a string, followed by a new line.
-
-File 1-print_rev_recursion.c is a function that prints a string in reverse.
-
-File 2-strlen_recursion.c is a function that returns the length of a string.
-
-File 3-factorial.c is a function that returns the factorial of a given number.
-
-File 4-pow_recursion.c is a function that returns the value of x raised to the power of y.
-
-File 5-sqrt_recursion.c is a function that returns the natural square root of a number.
-
-File 6-is_prime_number.c is a function that returns 1 if the input integer is a prime number, otherwise return 0.
-
-File 100-is_palindrome.c is a function that returns 1 if a string is a palindrome and 0 if not.
-
-File 101-wildcmp.c is a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. It uses the concept of wildcards.
-
-File _putchar.c is a file containing the _putchar function.
-
-File main.h is the header file containing the function prototypes.
+Repository Contents
+0-puts_recursion.c
+Prints a string, ending with a newline.
+1-print_rev_recursion.c
+Outputs a string in reverse order.
+2-strlen_recursion.c
+Provides the length of a string.
+3-factorial.c
+Computes the factorial of a specified number.
+4-pow_recursion.c
+Calculates the result of x raised to the power of y.
+5-sqrt_recursion.c
+Determines the natural square root of a given number.
+6-is_prime_number.c
+Checks if an input integer is prime, returning 1 for true and 0 for false.
+100-is_palindrome.c
+Evaluates if a string is a palindrome, returning 1 for true and 0 for false.
+101-wildcmp.c
+Compares two strings considering wildcards. It returns 1 if deemed identical and 0 otherwise.
+_putchar.c
+Contains the _putchar function for character output.
+main.h
+The header file encompassing the function prototypes.
