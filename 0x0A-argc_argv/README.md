@@ -1,9 +1,11 @@
-File 0-whatsmyname.c is a program that prints its name, followed by a new line.
+## Description of Files
 
-File 1-args.c is a program that prints the number of arguments passed into it.
+- **0-whatsmyname.c**: This program displays its own name followed by a newline.
+  
+- **1-args.c**: This program outputs the count of arguments provided to it.
 
-File 2-args.c is a program that prints all arguments it receives.
+- **2-args.c**: This program lists out all the arguments it has received.
 
-File 3-mul.c is a program that multiplies two numbers.
+- **3-mul.c**: This program carries out multiplication of two numbers and displays the result.
 
-File 4-add.c is a program that adds positive numbers.
+- **4-add.c**: This program calculates and shows the sum of positive numbers provided as arguments.
