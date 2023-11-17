@@ -3,7 +3,8 @@
 #include "lists.h"
 
 /**
- * add_node - includes a new member at the start of an ALX software engineering linked list
+ * add_node - includes a new member at the start of an ALX software engineering
+ * linked list
  * @head: double pointer to the list_t list
  * @str: brand new string to introduce into the node
  *
@@ -11,8 +12,8 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
+	size_t len = 0;
 	list_t *new;
-	unsigned int len = 0;
 
 	while (str[len])
 		len++;
