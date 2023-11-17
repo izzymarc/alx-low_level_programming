@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beginning of a linked list
+ * add_node - includes a new member at the start of an ALX software engineering linked list
  * @head: double pointer to the list_t list
- * @str: new string to add in the node
+ * @str: brand new string to introduce into the node
  *
- * Return: the address of the new element, or NULL if it fails
+ * Return: the address of the shiny new element, or NULL if it falters
  */
 list_t *add_node(list_t **head, const char *str)
 {
