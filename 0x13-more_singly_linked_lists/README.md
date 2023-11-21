@@ -1,31 +1,51 @@
-File 0-print_listint.c is a function that prints all the elements of a listint_t list.
+Linked List Functions
+This repository contains the implementation of various functions for manipulating linked lists in C. Below is a brief description of each file:
 
-File 1-listint_len.c is a function that returns the number of elements in a linked listint_t list.
+0-print_listint.c
 
-File 2-add_nodeint.c is a function that adds a new node at the beginning of a listint_t list.
+A function that prints all the elements of a listint_t linked list.
+1-listint_len.c
 
-File 3-add_nodeint_end.c is a function that adds a new node at the end of a listint_t list.
+A function that returns the number of elements in a listint_t linked list.
+2-add_nodeint.c
 
-File 4-free_listint.c is a function that frees a listint_t list.
+A function that adds a new node at the beginning of a listint_t linked list.
+3-add_nodeint_end.c
 
-File 5-free_listint2.c is a function that frees a listint_t list and sets the head pointer to NULL.
+A function that adds a new node at the end of a listint_t linked list.
+4-free_listint.c
 
-File 6-pop_listint.c is a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+A function that frees a listint_t linked list.
+5-free_listint2.c
 
-File 7-get_nodeint.c is a function that returns the nth node of a listint_t linked list.
+A function that frees a listint_t linked list and sets the head pointer to NULL.
+6-pop_listint.c
 
-File 8-sum_listint.c is a function that returns the sum of all the data (n) of a listint_t linked list.
+A function that deletes the head node of a listint_t linked list and returns the head node’s data (n).
+7-get_nodeint.c
 
-File 9-insert_nodeint.c is a function that inserts a new node at a given position.
+A function that returns the nth node of a listint_t linked list.
+8-sum_listint.c
 
-File 10-delete_nodeint.c is a function that deletes the node at index index of a listint_t linked list.
+A function that returns the sum of all the data (n) of a listint_t linked list.
+9-insert_nodeint.c
 
-File 100-reverse_listint.c is a function that reverses a linked list.
+A function that inserts a new node at a given position.
+10-delete_nodeint.c
 
-File 101-print_listint_safe.c is a function that prints a listint_t linked list, safely.
+A function that deletes the node at index index of a listint_t linked list.
+100-reverse_listint.c
 
-File 102-free_listint_safe.c is a function that frees a listint_t list, safely.
+A function that reverses a listint_t linked list.
+101-print_listint_safe.c
 
-File 103-find_loop.c is a function that finds the loop in a linked list.
+A function that prints a listint_t linked list safely.
+102-free_listint_safe.c
 
-File lists.h is the header file containing all these function prototypes and the data structure listint_t.
+A function that frees a listint_t linked list safely.
+103-find_loop.c
+
+A function that finds the loop in a listint_t linked list.
+lists.h
+
+The header file containing all these function prototypes and the data structure listint_t.
