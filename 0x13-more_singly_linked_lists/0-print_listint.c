@@ -6,7 +6,7 @@
  *
  * Return: number of nodes
  */
-size_t display_linked_list(const listint_t *list_head)
+size_t print_listint(const listint_t *list_head)
 {
 	size_t node_count = 0;
 
