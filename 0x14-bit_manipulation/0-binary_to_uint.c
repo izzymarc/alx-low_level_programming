@@ -4,9 +4,13 @@
 /**
  * binary_to_uint - convert a binary number to an unsigned int
  * @b: char string
- * Description: Converts a binary number (string of '0' and '1') to an unsigned
- * int. Returns 0 if any character in the string is not '0' or '1', or if b is
- * NULL.
+ * Description: Converts a binary number, represented as a string of '0' and
+ * '1' characters, to an unsigned integer. It iterates over each character
+ * of the string, calculating the binary number's decimal value.
+ *
+ * Return: The decimal value of the binary number as an unsigned int. If the
+ * string contains characters other than '0' or '1', or if it is NULL, the
+ * function returns 0.
  */
 unsigned int binary_to_uint(const char *b)
 {
