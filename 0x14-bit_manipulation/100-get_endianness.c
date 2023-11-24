@@ -6,10 +6,10 @@
  */
 int get_endianness(void)
 {
-	int num;
+	int itemCount;
 
-	num = 1;
-	if (*(char *)&num == 1)
+	itemCount = 1;
+	if (*(char *)&itemCount == 1)
 		return (1);
 	else
 		return (0);
