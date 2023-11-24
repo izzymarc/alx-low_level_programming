@@ -14,7 +14,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int total, power;
+	unsigned int result, power;
 	int len;
 
 	if (b == NULL)
@@ -26,11 +26,11 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
+	for (power = 1, result = 0, len--; len >= 0; len--, power *= 2)
 	{
 		if (b[len] == '1')
-			total += power;
+			result += power;
 	}
 
-	return (total);
+	return (result);
 }
