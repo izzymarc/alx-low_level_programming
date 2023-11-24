@@ -22,7 +22,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	for (bit_counter = n, bit_position = 0; 
+	for (bit_counter = n, bit_position = 0;
 		(bit_counter >>= 1) > 0; bit_position++)
 		;
 
